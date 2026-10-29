@@ -1,0 +1,62 @@
+[
+  {
+    "query": "Ping works but big file copies between two VLANs hang after yesterday's change",
+    "category": "network",
+    "keyword": "mtu"
+  },
+  {
+    "query": "Optical errors and the uplink keeps going up and down, lots of CRC counters",
+    "category": "network",
+    "keyword": "transceiver"
+  },
+  {
+    "query": "Cannot resolve internal hostnames, SERVFAIL from our resolver",
+    "category": "network",
+    "keyword": "dns"
+  },
+  {
+    "query": "/var is 100% full and the database refuses writes",
+    "category": "storage",
+    "keyword": "disk"
+  },
+  {
+    "query": "Controller says one drive failed and the array is rebuilding, reads are slow",
+    "category": "storage",
+    "keyword": "raid"
+  },
+  {
+    "query": "File servers mounted over NFS are frozen, 'not responding'",
+    "category": "storage",
+    "keyword": "nfs"
+  },
+  {
+    "query": "Rack row temperature alarm, servers throttling, air conditioning unit fault",
+    "category": "cooling",
+    "keyword": "crac"
+  },
+  {
+    "query": "Whole rack lost power at once, PDU shows tripped breaker near max load",
+    "category": "power",
+    "keyword": "overload"
+  },
+  {
+    "query": "Building lost mains, UPS is running on batteries and the generator did not start",
+    "category": "power",
+    "keyword": "generator"
+  },
+  {
+    "query": "After the new release the service keeps restarting with a null pointer on startup",
+    "category": "service",
+    "keyword": "release"
+  },
+  {
+    "query": "Process killed by OOM killer, memory kept growing for days",
+    "category": "service",
+    "keyword": "memory"
+  },
+  {
+    "query": "API calls take 5 seconds, 'timeout waiting for connection from pool', DB CPU idle",
+    "category": "latency",
+    "keyword": "pool"
+  }
+]

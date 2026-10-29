@@ -1,0 +1,111 @@
+{
+  "summary": {
+    "backend": "TF-IDF (fallback)",
+    "n_cases": 12,
+    "k": 4,
+    "data": "synthetic",
+    "semantic_top1_category": "100.0% (12/12)",
+    "semantic_recall@4": "100.0% (12/12)",
+    "keyword_top1_category": "100.0% (12/12)",
+    "keyword_recall@4": "100.0% (12/12)",
+    "avg_retrieval_latency_ms": 0.31
+  },
+  "rows": [
+    {
+      "query": "Ping works but big file copies between two VLANs hang after yesterday's change",
+      "expected": "network",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "Optical errors and the uplink keeps going up and down, lots of CRC counters",
+      "expected": "network",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "Cannot resolve internal hostnames, SERVFAIL from our resolver",
+      "expected": "network",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "/var is 100% full and the database refuses writes",
+      "expected": "storage",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "Controller says one drive failed and the array is rebuilding, reads are slow",
+      "expected": "storage",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "File servers mounted over NFS are frozen, 'not responding'",
+      "expected": "storage",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "Rack row temperature alarm, servers throttling, air conditioning unit fault",
+      "expected": "cooling",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "Whole rack lost power at once, PDU shows tripped breaker near max load",
+      "expected": "power",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "Building lost mains, UPS is running on batteries and the generator did not start",
+      "expected": "power",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "After the new release the service keeps restarting with a null pointer on startup",
+      "expected": "service",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "Process killed by OOM killer, memory kept growing for days",
+      "expected": "service",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    },
+    {
+      "query": "API calls take 5 seconds, 'timeout waiting for connection from pool', DB CPU idle",
+      "expected": "latency",
+      "sem_top1": true,
+      "sem_recall@k": true,
+      "kw_top1": true,
+      "kw_recall@k": true
+    }
+  ]
+}
